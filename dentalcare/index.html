@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>DENTALCARE</title>
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.1/css/bootstrap.min.css">
+
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="header fixed-top">
+	
+<div class="container">
+	
+<div class="row alig-items-center justify-content-between">
+	
+<a href="#home" class="logo">Dental<span>Care.</span></a>
+
+<nav class="nav">
+	<a href="#home">home</a>
+	<a href="#about">about</a>
+	<a href="#services">services</a>
+	<a href="#reviews">reviews</a>
+	<a href="#contact">contact</a>
+</nav>
+
+<a href="#contact" class="link-btn">make appointment</a>
+
+<div id="menu-btn" class="fas fa-bars"></div>
+
+</div>
+	
+
+</div>
+
+
+</div>
+</header>
+
+
+
+
+<section class="home" id="home">
+
+	<div class="container">
+
+		<div class="row min-vh-100 align-items-center">
+			<div class="content text-center text-md-left">
+				<h3>Let us brighten your smile</h3>
+				<p>Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs. </p>
+				<a href="#contact" class="link-btn">make appointment</a>
+				
+			</div>
+			
+		</div>
+		
+
+
+
+
+
+	</div>
+	
+
+
+
+
+
+
+</section>
+
+<section class="about" id="about">
+
+	<div class="container">
+
+		<div class="row alig-items-center">
+
+			<div class="col-md-6 image">
+				<img src="images/care.webp" class="w-100 mb-5 mb-md-0">
+			</div>
+
+			<div class="col-md-6 content">
+				<span>About Us</span>
+				<h3>True Healthcare for your family</h3>
+				<p>From its medieval origins to the digital era, learn everything there is to know about the ubiquitous lorem ipsum passage.</p>
+				<a href="#contact" class="link-btn">Make appointment</a>
+			</div>
+			
+		</div>
+		
+	</div>
+	
+</section>
+
+
+
+<section class="services" id="services">
+
+	<h1 class="heading">Our Services</h1>
+
+	<div class="box-container container">
+
+		<div class="box">
+
+			<img src="images/d.jpg">
+			<h3>Aligment Specialist</h3>
+			<p>Lorem ipsum was purposefully designed to have no meaning, but appear like real text, making it the perfect placeholder.</p>
+			
+		</div>
+		
+		<div class="box">
+
+			<img src="images/cos.jpg">
+			<h3>Cosmetic Dentistry</h3>
+			<p>Lorem ipsum was purposefully designed to have no meaning, but appear like real text, making it the perfect placeholder.</p>
+			
+		</div>
+
+		<div class="box">
+
+			<img src="images/ff.jpg">
+			<h3>Oral Hygiene experts</h3>
+			<p>Lorem ipsum was purposefully designed to have no meaning, but appear like real text, making it the perfect placeholder.</p>
+			
+		</div>
+
+	</div>
+		
+	
+	
+</section>
+
+
+
+<section class="reviews" id="reviews">
+
+	<h1 class="heading"> Satisfied Client </h1>
+
+	<div class="box-container container">
+
+		<div class="box">
+			<img src="images/maan.jpg">
+			<p>Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.</p>
+			<div class="stars">
+				<i class="fas fa-star"></i>
+				<i class="fas fa-star"></i>
+				<i class="fas fa-star"></i>
+				<i class="fas fa-star"></i>
+				<i class="fas fa-star-half-alt"></i>
+				
+			</div>
+			<h3>Lorem Imsum</h3>
+			<span>Satisfied Client</span>
+		</div>
+
+		<div class="box">
+			<img src="images/mman.jpg">
+			<p>Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.</p>
+			<div class="stars">
+				<i class="fas fa-star"></i>
+				<i class="fas fa-star"></i>
+				<i class="fas fa-star"></i>
+				<i class="fas fa-star"></i>
+				<i class="fas fa-star-half-alt"></i>
+				
+			</div>
+			<h3>Lorem Imsum</h3>
+			<span>Satisfied Client</span>
+		</div>
+
+
+		<div class="box">
+			<img src="images/woman.jpg">
+			<p>Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.</p>
+			<div class="stars">
+				<i class="fas fa-star"></i>
+				<i class="fas fa-star"></i>
+				<i class="fas fa-star"></i>
+				<i class="fas fa-star"></i>
+				<i class="fas fa-star-half-alt"></i>
+				
+			</div>
+			<h3>Lorem Imsum</h3>
+			<span>Satisfied Client</span>
+		</div>
+
+	</div>
+	
+</section>
+
+
+
+
+<section class="contact" id="contact">
+
+	<h1 class="heading">Make Appointment</h1>
+
+	<form action="<php echo $_SERVER[/'PHP_SELF']; ?>" method="post">
+		<span>Your Name :</span>
+		<input type="text" name="name" placeholder="enter your name" class="box">
+		<span>Your Email :</span>
+		<input type="email" name="email" placeholder="enter your email" class="box">
+		<span>Your Number :</span>
+		<input type="number" name="number" placeholder="enter your number" class="box">
+		<span>Appointment Date :</span>
+		<input type="datetime-local" name="date" class="box">
+		<input type="submit" value="Make Appointment" name="submit" class="link-btn">
+	</form>
+	
+</section>
+
+
+<div class="loader">
+	<img src="images/1.jpg" width="150px" height="150px">
+	<img src="images/2.jpg" width="150px" height="150px">
+	<img src="images/3.jpg" width="150px" height="150px">
+	<img src="images/4.jpg" width="150px" height="150px">
+</div>
+
+
+
+
+<section class="footer">
+
+	<div class="box-container container">
+
+		<div class="box">
+			<i class="fas fa-phone"></i>
+			<h3>Phone Number</h3>
+			<p>+123-456-7890</p>
+			<p>+111-222-3333</p>
+		</div>
+
+
+		<div class="box">
+			<i class="fas fa-map-marker-alt"></i>
+				<h3>Our Address</h3>
+				<p>Ferizaj , Kosovo - 58</p>
+		</div>
+
+
+		<div class="box">
+			<i class="fas fa-clock"></i>
+				<h3>Opening Hours</h3>
+				<p>00:07am to 10:00pm</p>
+		</div>
+
+
+		<div class="box">
+			<i class="fas fa-envelope"></i>
+			<h3>Email Address</h3>
+			<p>ermalshehu@gmail.com</p>
+			<p>shehuermal40@gmail.com</p>
+		</div>
+</div>
+
+
+<div class="credit"> &copy; copyright @ By <span>Ermal Shehu</span> </div>
+
+</section>
+
+
+
+
+
+
+
+
+
+<script src="js/script.js"></script>
+</body>
+</html>
